@@ -3,7 +3,7 @@
   "customizations": {
     "codespaces": {
       "repositories": {
-        "PE-Classroom/01-profile-card": {
+        "PE-Classroom/01-profile-card-html": {
           "permissions": {
             "contents": "read"
           }
