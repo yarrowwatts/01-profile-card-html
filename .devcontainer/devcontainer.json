@@ -10,16 +10,22 @@
         }
       }
     },
-
     "vscode": {
       "extensions": [
         "GitHub.copilot",
-        "ms-vscode.live-server"
+        "ms-vscode.live-server",
+        "Gruntfuggly.activitusbar"
       ],
       "settings": {
         "livePreview.autoRefreshPreview": "On All Changes in Editor",
         "editor.minimap.enabled": false,
-        "workbench.colorTheme": "Visual Studio Dark"
+        "workbench.colorTheme": "Visual Studio Dark",
+        "activitusbar.views": [
+          { "name": "search", "codicon": "search" },
+          { "name": "debug", "codicon": "debug-alt" },
+          { "name": "github-pull-requests", "codicon": "git-pull-request" }
+        ],
+        "workbench.activityBar.visible": false
       }
     }
   }
