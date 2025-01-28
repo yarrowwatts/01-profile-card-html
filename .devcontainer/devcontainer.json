@@ -17,7 +17,10 @@
         "ms-vscode.live-server"
       ],
       "settings": {
-        "livePreview.autoRefreshPreview": "On All Changes in Editor"
+        "livePreview.autoRefreshPreview": "On All Changes in Editor",
+        "livePreview.openPreviewTarget": "Embedded Preview",
+        "livePreview.hostIP": "0.0.0.0",
+        "livePreview.portNumber": 3000
       }
     }
   }
