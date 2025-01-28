@@ -18,10 +18,8 @@
       "settings": {
         "livePreview.autoRefreshPreview": "On All Changes in Editor",
         "editor.minimap.enabled": false,
-        "workbench.colorTheme": "Visual Studio Dark",
-        "workbench.view.search.enabled": false,
-        "workbench.view.debug.enabled": false,
-        "githubPullRequests.enabled": false
+        "terminal.integrated.enabled": false,
+        "workbench.colorTheme": "Visual Studio Dark"
       }
     }
   }
