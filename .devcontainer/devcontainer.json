@@ -13,19 +13,15 @@
     "vscode": {
       "extensions": [
         "GitHub.copilot",
-        "ms-vscode.live-server",
-        "Gruntfuggly.activitusbar"
+        "ms-vscode.live-server"
       ],
       "settings": {
         "livePreview.autoRefreshPreview": "On All Changes in Editor",
         "editor.minimap.enabled": false,
         "workbench.colorTheme": "Visual Studio Dark",
-        "activitusbar.views": [
-          { "name": "search", "codicon": "search" },
-          { "name": "debug", "codicon": "debug-alt" },
-          { "name": "github-pull-requests", "codicon": "git-pull-request" }
-        ],
-        "workbench.activityBar.visible": false
+        "workbench.view.search.enabled": false,
+        "workbench.view.debug.enabled": false,
+        "githubPullRequests.enabled": false
       }
     }
   }
