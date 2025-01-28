@@ -17,8 +17,7 @@
         "ms-vscode.live-server"
       ],
       "settings": {
-        "livePreview.autoRefreshPreview": "On All Changes in Editor",
-        "livePreview.portNumber": 3000
+        "livePreview.autoRefreshPreview": "On All Changes in Editor"
       }
     }
   }
