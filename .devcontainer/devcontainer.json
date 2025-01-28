@@ -17,7 +17,8 @@
         "ms-vscode.live-server"
       ],
       "settings": {
-        "livePreview.autoRefreshPreview": "On All Changes in Editor"
+        "livePreview.autoRefreshPreview": "On All Changes in Editor",
+        "editor.minimap.enabled": false
       }
     }
   }
