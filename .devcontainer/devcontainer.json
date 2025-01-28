@@ -1,0 +1,24 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "customizations": {
+    "codespaces": {
+      "repositories": {
+        "PE-Classroom/profile-card": {
+          "permissions": {
+            "contents": "read"
+          }
+        }
+      }
+    },
+
+    "vscode": {
+      "extensions": [
+        "GitHub.copilot",
+        "ms-vscode.live-server"
+      ],
+      "settings": {
+        "livePreview.autoRefreshPreview": "On All Changes in Editor"
+      }
+    }
+  }
+}
