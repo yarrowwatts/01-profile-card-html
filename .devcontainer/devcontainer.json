@@ -14,7 +14,8 @@
     "vscode": {
       "extensions": [
         "GitHub.copilot",
-        "ms-vscode.live-server"
+        "ms-vscode.live-server",
+        "DarkPhoenix.dark-modern-darker"
       ],
       "settings": {
         "livePreview.autoRefreshPreview": "On All Changes in Editor",
