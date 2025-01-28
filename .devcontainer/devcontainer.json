@@ -18,7 +18,8 @@
       ],
       "settings": {
         "livePreview.autoRefreshPreview": "On All Changes in Editor",
-        "editor.minimap.enabled": false
+        "editor.minimap.enabled": false,
+        "workbench.colorTheme": "Dark Modern"
       }
     }
   }
