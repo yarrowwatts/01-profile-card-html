@@ -18,7 +18,6 @@
       "settings": {
         "livePreview.autoRefreshPreview": "On All Changes in Editor",
         "editor.minimap.enabled": false,
-        "terminal.integrated.enabled": false,
         "workbench.colorTheme": "Visual Studio Dark"
       }
     }
