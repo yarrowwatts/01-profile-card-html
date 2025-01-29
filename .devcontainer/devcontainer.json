@@ -1,15 +1,6 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "customizations": {
-    "codespaces": {
-      "repositories": {
-        "PE-Classroom/01-profile-card-html": {
-          "permissions": {
-            "contents": "read"
-          }
-        }
-      }
-    },
     "vscode": {
       "extensions": [
         "GitHub.copilot",
@@ -19,6 +10,7 @@
         "livePreview.autoRefreshPreview": "On All Changes in Editor",
         "editor.minimap.enabled": false,
         "workbench.colorTheme": "Visual Studio Dark",
+        "terminal.integrated.enablePersistentSessions": false,
         "terminal.integrated.hideOnStartup": "always"
       }
     }
