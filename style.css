@@ -25,8 +25,8 @@ body {
 .profile-card {
   border: 5px double #0a3108; /* Double green border */
   background: transparent;    /* Transparent background for floating effect */
-  width: 400px; /* Fixed width */
-  height: 520px; /* Fixed height */
+  width: 510px; /* Fixed width */
+  height: 510px; /* Fixed height */
   display: flex; /* Flexbox layout */
   flex-direction: column; /* Stack children vertically */
   justify-content: center; /* Center children vertically */
@@ -68,7 +68,7 @@ body {
 .profile-card p {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Set font */
   color: #061617; /* Set text color */
-  font-size: 14px; /* Correct property for font size */
+  font-size: 16px; /* Correct property for font size */
 }
 
 /* Focus style for accessibility */
