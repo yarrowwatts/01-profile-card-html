@@ -13,7 +13,7 @@ body {
   background-position: right bottom;
   background-attachment: fixed;
   background-size: 500px 500px; /* or 'contain', or a suitable size */
-  min-height: 500vh;
+  min-height: 100vh;
   color: #98563f;
   line-height: 1.6;
   display: flex;
