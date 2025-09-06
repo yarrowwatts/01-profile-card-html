@@ -7,8 +7,12 @@
 
 body {
   font-family: "National Park", Arial, Helvetica, sans-serif;
-  background: url('YWbackground') no-repeat bottom right fixed;
-  background-size: cover;
+  background-color: #98563f;
+  background-image: url('YWbackground.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-attachment: fixed;
+  background-size: auto;
   min-height: 100vh;
   color: #98563f;
   line-height: 1.6;
@@ -30,4 +34,9 @@ body {
   border-radius: 16px;
   box-shadow: 0 4px 24px rgba(0,0,0,0.10);
   text-align: center;
+  padding: 10px;
+}
+
+.profile-card p {
+  font-family: "National Park", Arial, Helvetica, sans-serif;
 }
