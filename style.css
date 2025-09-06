@@ -12,8 +12,8 @@ body {
   background-repeat: no-repeat;
   background-position: right bottom;
   background-attachment: fixed;
-  background-size: 300px 300px; /* or 'contain', or a suitable size */
-  min-height: 100vh;
+  background-size: 500px 500px; /* or 'contain', or a suitable size */
+  min-height: 500vh;
   color: #98563f;
   line-height: 1.6;
   display: flex;
