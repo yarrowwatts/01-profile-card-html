@@ -10,9 +10,9 @@ body {
   background-color: #98563f;
   background-image: url('YWbackground.png');
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: right bottom;
   background-attachment: fixed;
-  background-size: auto;
+  background-size: 300px 300px; /* or 'contain', or a suitable size */
   min-height: 100vh;
   color: #98563f;
   line-height: 1.6;
