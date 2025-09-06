@@ -1,44 +1,113 @@
 /* Reset some default styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+* { /* Universal selector for all elements */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  box-sizing: border-box; /* Include border and padding in element's total width/height */
 }
 
 body {
-  font-family: "National Park", Arial, Helvetica, sans-serif;
-  background-color: #98563f;
-  background-image: url('img/YWbackground.png');
-  background-repeat: no-repeat;
-  background-position: right bottom;
-  background-attachment: fixed;
-  background-size: 500px 500px; /* or 'contain', or a suitable size */
-  min-height: 100vh;
-  color: #98563f;
-  line-height: 1.6;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-family: "National Park", Arial, Helvetica, sans-serif; /* Set main font */
+  background-color: #98563f; /* Set background color */
+  background-image: url('img/YWbackground.png'); /* Set background image */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  background-position: right bottom; /* Position image at bottom right */
+  background-attachment: fixed; /* Fix background image during scroll */
+  background-size: 500px 500px; /* Set background image size */
+  min-height: 100vh; /* Ensure body takes at least full viewport height */
+  color: #98563f; /* Set default text color */
+  line-height: 1.25; /* Set default line height */
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
 }
 
 /* Centered profile card */
 .profile-card {
-  background: #fff;
-  border: 2px solid #0a3108;
-  width: 400px;
-  height: 400px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10px;
-  box-shadow: 0 4px 24px rgba(0,0,0,0.10);
-  text-align: center;
-  padding: 15px;
+  border: 5px double #0a3108; /* Double green border */
+  background: transparent;    /* Transparent background for floating effect */
+  width: 400px; /* Fixed width */
+  height: 480px; /* Fixed height */
+  display: flex; /* Flexbox layout */
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center children vertically */
+  align-items: center; /* Center children horizontally */
+  border-radius: 10px; /* Rounded corners for floating look */
+  box-shadow: 0 10px 24px rgba(0,0,0,0.10); /* Outer shadow for depth */
+  text-align: center; /* Center text */
+  padding: 0; /* No padding, handled by inner card */
+  position: relative; /* For absolute positioning of inner card */
 }
 
+/* Inner card for floating effect */
+.profile-card-inner {
+  background: #fff; /* White background for content */
+  border-radius: 5px; /* Slightly smaller rounded corners */
+  width: 98%; /* Slightly smaller than outer card */
+  height: 98%; /* Slightly smaller than outer card */
+  display: flex; /* Flexbox layout */
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center children vertically */
+  align-items: center; /* Center children horizontally */
+  padding: 15px; /* 2px padding for floating border effect */
+  position: center; /* Position inside outer card */
+  top: 0%; /* Offset from top */
+  left: 0%; /* Offset from left */
+}
+
+/* Avatar image style */
+.profile-avatar {
+  width: 100px; /* Avatar width */
+  height: 100px; /* Avatar height */
+  border-radius: 50%; /* Make avatar circular */
+  object-fit: cover; /* Ensure image covers area */
+  margin-bottom: 0.7rem; /* Space below avatar */
+  border: 4px solid #0a3108; /* Green border around avatar */
+}
+
+/* Profile card paragraph styles */
 .profile-card p {
-  font-family: "National Park", Arial, Helvetica, sans-serif;
-  color: #061617;
-  size: 14px
+  font-family: "National Park", Arial, Helvetica, sans-serif; /* Set font */
+  color: #061617; /* Set text color */
+  size: 14px /* Intended font size (should be font-size, but left as is) */
+}
+
+/* H1: uppercase, spaced, bold */
+.small-caps {
+  text-transform: uppercase; /* Uppercase letters */
+  letter-spacing: 0.2em; /* Space between letters */
+}
+
+/* Polished heading styles */
+.profile-card h1 {
+  font-size: 2.2rem; /* Large font size */
+  font-weight: 700; /* Bold */
+  margin-bottom: 0.2rem; /* Space below */
+  letter-spacing: 0.2em; /* Space between letters */
+  text-transform: uppercase; /* Uppercase letters */
+  line-height: 1.1; /* Tight line height */
+}
+
+.profile-card h2 {
+  font-size: 1.3rem; /* Medium font size */
+  font-weight: 600; /* Medium weight */
+  margin-bottom: 0.15rem; /* Space below */
+  color: #3d1f0e; /* Brown color */
+  letter-spacing: 0.05em; /* Slight letter spacing */
+  line-height: 1.1; /* Tight line height */
+}
+
+.profile-card h3,
+.green-h3 {
+  font-size: 1rem; /* Slightly larger than normal text */
+  font-weight: 800; /* Semi-bold */
+  margin-bottom: 0.3rem; /* Space below */
+  color: #0a3108; /* Green color */
+  letter-spacing: 0.03em; /* Slight letter spacing */
+  line-height: 1.1; /* Tight line height */
+}
+
+/* Less space below the "My Favorite Websites" heading */
+.profile-card-inner h3:last-of-type {
+  margin-bottom: 0.1rem; /* Minimal space below last h3 */
+}
 }
