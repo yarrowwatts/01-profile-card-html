@@ -42,8 +42,8 @@ body {
 .profile-card-inner {
   background: #fff; /* White background for content */
   border-radius: 5px; /* Slightly smaller rounded corners */
-  width: 98%; /* Slightly smaller than outer card */
-  height: 98%; /* Slightly smaller than outer card */
+  width: 99%; /* Slightly smaller than outer card */
+  height: 99%; /* Slightly smaller than outer card */
   display: flex; /* Flexbox layout */
   flex-direction: column; /* Stack children vertically */
   justify-content: center; /* Center children vertically */
@@ -56,8 +56,8 @@ body {
 
 /* Avatar image style */
 .profile-avatar {
-  width: 100px; /* Avatar width */
-  height: 100px; /* Avatar height */
+  width: 150px; /* Avatar width */
+  height: 150px; /* Avatar height */
   border-radius: 50%; /* Make avatar circular */
   object-fit: cover; /* Ensure image covers area */
   margin-bottom: 0.7rem; /* Space below avatar */
@@ -68,7 +68,19 @@ body {
 .profile-card p {
   font-family: "National Park", Arial, Helvetica, sans-serif; /* Set font */
   color: #061617; /* Set text color */
-  size: 14px /* Intended font size (should be font-size, but left as is) */
+  font-size: 14px; /* Correct property for font size */
+}
+
+/* Focus style for accessibility */
+.profile-card-inner:focus {
+  outline: 3px solid #0a3108;
+  outline-offset: 2px;
+}
+
+/* Ensure links are clearly visible when focused */
+.profile-card a:focus {
+  outline: 2px dashed #98563f;
+  outline-offset: 2px;
 }
 
 /* H1: uppercase, spaced, bold */
@@ -104,6 +116,7 @@ body {
   color: #0a3108; /* Green color */
   letter-spacing: 0.03em; /* Slight letter spacing */
   line-height: 1.1; /* Tight line height */
+  text-transform: uppercase; /* All caps */
 }
 
 /* Less space below the "My Favorite Websites" heading */
@@ -115,7 +128,9 @@ body {
 .profile-card a {
   font-family: "National Park", Arial, Helvetica, sans-serif; /* Match document font */
   color: #98563f; /* Set link color */
-  font-size: 11px; /* Set font size */
+  font-size: 12px; /* Set font size */
+  font-weight: 500; /* Semi-bold */
+  letter-spacing: 0.1em; /* Slight letter spacing */
   text-transform: uppercase; /* All caps */
   text-decoration: none; /* Remove underline */
   transition: color 0.2s; /* Smooth color transition */
