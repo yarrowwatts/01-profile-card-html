@@ -7,7 +7,7 @@
 
 body {
   font-family: "National Park", Arial, Helvetica, sans-serif;
-  background: url('YWbackground.png') no-repeat bottom right fixed;
+  background: url('YWbackground') no-repeat bottom right fixed;
   background-size: cover;
   min-height: 100vh;
   color: #98563f;
