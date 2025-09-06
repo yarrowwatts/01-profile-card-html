@@ -132,10 +132,10 @@ body {
   font-weight: 500; /* Semi-bold */
   letter-spacing: 0.1em; /* Slight letter spacing */
   text-transform: uppercase; /* All caps */
-  text-decoration: none; /* Remove underline */
   transition: color 0.2s; /* Smooth color transition */
 }
 
 .profile-card a:hover {
   color: #000; /* Black on hover */
+  border: none; /* No border on hover */
 }
