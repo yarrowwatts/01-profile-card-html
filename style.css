@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: "National Park", Arial, Helvetica, sans-serif; /* Set main font */
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Set main font */
   background-color: #98563f; /* Set background color */
   background-image: url('img/YWbackground.png'); /* Set background image */
   background-repeat: no-repeat; /* Prevent image repetition */
@@ -66,7 +66,7 @@ body {
 
 /* Profile card paragraph styles */
 .profile-card p {
-  font-family: "National Park", Arial, Helvetica, sans-serif; /* Set font */
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Set font */
   color: #061617; /* Set text color */
   font-size: 14px; /* Correct property for font size */
 }
@@ -126,7 +126,7 @@ body {
 
 /* Link styles for profile card */
 .profile-card a {
-  font-family: "National Park", Arial, Helvetica, sans-serif; /* Match document font */
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Match document font */
   color: #98563f; /* Set link color */
   font-size: 12px; /* Set font size */
   font-weight: 500; /* Semi-bold */
