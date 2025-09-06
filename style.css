@@ -39,4 +39,6 @@ body {
 
 .profile-card p {
   font-family: "National Park", Arial, Helvetica, sans-serif;
+  color: black;
+  size: 14px
 }
