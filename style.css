@@ -26,7 +26,7 @@ body {
   border: 5px double #0a3108; /* Double green border */
   background: transparent;    /* Transparent background for floating effect */
   width: 400px; /* Fixed width */
-  height: 480px; /* Fixed height */
+  height: 520px; /* Fixed height */
   display: flex; /* Flexbox layout */
   flex-direction: column; /* Stack children vertically */
   justify-content: center; /* Center children vertically */
@@ -48,7 +48,7 @@ body {
   flex-direction: column; /* Stack children vertically */
   justify-content: center; /* Center children vertically */
   align-items: center; /* Center children horizontally */
-  padding: 15px; /* 2px padding for floating border effect */
+  padding: 30px; /* 2px padding for floating border effect */
   position: center; /* Position inside outer card */
   top: 0%; /* Offset from top */
   left: 0%; /* Offset from left */
