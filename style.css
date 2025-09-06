@@ -110,4 +110,17 @@ body {
 .profile-card-inner h3:last-of-type {
   margin-bottom: 0.1rem; /* Minimal space below last h3 */
 }
+
+/* Link styles for profile card */
+.profile-card a {
+  font-family: "National Park", Arial, Helvetica, sans-serif; /* Match document font */
+  color: #98563f; /* Set link color */
+  font-size: 11px; /* Set font size */
+  text-transform: uppercase; /* All caps */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.2s; /* Smooth color transition */
+}
+
+.profile-card a:hover {
+  color: #000; /* Black on hover */
 }
